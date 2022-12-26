@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    animation: fadeInRight;
+    animation: fadeInDown;
     animation-duration: 2s;
 }
 
@@ -86,16 +86,18 @@ li {
     .Nav h1 {
         width: 100%;
         text-align: center;
-        font-size: 7vmin;
+        font-size: 6.5vmin;
+        padding: 0;
     }
 
     .Nav {
-        height: 8vh;
+        height: 9vh;
     }
     
     .Nav ul {
+        position: absolute;
         width: 100vw;
-        top: 5.25%;
+        top: 70%;
         justify-content: center;
         height: 4vh;
     }
