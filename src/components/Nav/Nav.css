@@ -10,10 +10,6 @@
     align-items: center;
 }
 
-h1, li {
-    font-family: 'Glamour Karlina', serif;
-}
-
 h1 {
     position: fixed;
     left: 0;
@@ -25,22 +21,61 @@ h1 {
 
 ul {
     display: flex;
-    column-gap: 5vmin;
+    column-gap: 6vmin;
     background-color: whitesmoke;
+    background-image: url('/public/assets/nav-bg.jpg');
+    background-size: cover;
     height: 12vh;
     width: 80vmin;
     align-items: center;
     justify-content: right;
     position: fixed;
     right: 0;
+    padding: 5vmin;
 }
 
 li {
     color: navy;
     list-style-type: none;
-    padding: 0;
     text-transform: uppercase;
     font-size: 3vmin;
-    padding-right: 2vmin;
+}
+
+.Nav a {
+    color: navy;
+}
+
+.material-symbols-outlined {
+    font-size: 4vmin;
+}
+
+.title-hover, .hover {
+    display: inline-block;
+}
+
+.hover {
+    position: relative;
+}
+  
+.title-hover::after, .hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: navy;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.title-hover::after {
+    background-color: greenyellow;
+}
+  
+.title-hover:hover::after, .hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 

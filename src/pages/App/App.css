@@ -3,11 +3,6 @@
   src: url('../../../public/fonts/karlina.ttf');
 }
 
-@font-face {
-  font-family: Costa Nova;
-  src: url('../../../public/fonts/costa-nova.ttf');
-}
-
 * {
   box-sizing: border-box;
 }
@@ -17,5 +12,37 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: deeppink;
   min-height: 100%;
+  overflow: hidden;
+  font-family: 'Glamour Karlina', serif;
+}
+
+body {
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home, .home h1 {
+  position: absolute;
+  right: 50%;
+  top: 45%;
+  right: 10%;
+  animation: fadeInRight;
+  animation-duration: 2s;
+}
+
+.home img {
+  width: 70vmin;
+  z-index: 1;
+}
+
+.home h1 {
+  z-index: 2;
+  margin: -4vmin -4vmin 0 0;
+  text-align: center;
 }
