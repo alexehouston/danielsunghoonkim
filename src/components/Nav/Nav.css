@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 12vh;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,7 +27,7 @@ ul {
     background-color: whitesmoke;
     background-image: url('/public/assets/nav-bg.jpg');
     background-size: cover;
-    height: 12vh;
+    height: 10vh;
     width: 80vmin;
     align-items: center;
     justify-content: right;
