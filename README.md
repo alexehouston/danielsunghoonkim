@@ -24,7 +24,7 @@ Daniel Sung Hoon Kim is a traveling hairstylist based in Los Angeles, CA. Daniel
 <p align="center"><img src="public/readme/dsk-desktop-home.gif" width="800"></p><br/>
 <h4 align="center">Travel Dates</h4><br/>
 <p align="center"><img src="public/readme/dsk-desktop-dates.gif" width="800"></p><br/>
-<h4 align="center">Contact</h4><br/>
+<h4 align="center">About</h4><br/>
 <p align="center"><img src="public/readme/dsk-desktop-about.gif"width="800"></p>
 
 
