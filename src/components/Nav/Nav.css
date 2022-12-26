@@ -1,0 +1,46 @@
+.Nav {
+    background-color: navy;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1, li {
+    font-family: 'Glamour Karlina', serif;
+}
+
+h1 {
+    position: fixed;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 6vmin;
+    color: greenyellow;
+    padding: 1vmin 0 0 2vmin;
+}
+
+ul {
+    display: flex;
+    column-gap: 5vmin;
+    background-color: whitesmoke;
+    height: 12vh;
+    width: 80vmin;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    right: 0;
+}
+
+li {
+    color: navy;
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 3vmin;
+    padding-right: 2vmin;
+}
+

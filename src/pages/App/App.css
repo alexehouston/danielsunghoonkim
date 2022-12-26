@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Glamour Karlina;
+  src: url('../../../public/fonts/karlina.ttf');
+}
+
+@font-face {
+  font-family: Costa Nova;
+  src: url('../../../public/fonts/costa-nova.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url('../../../public/assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
