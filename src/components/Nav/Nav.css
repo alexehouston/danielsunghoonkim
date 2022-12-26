@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    animation: fadeInRight;
+    animation-duration: 2s;
 }
 
 h1 {
@@ -79,3 +81,31 @@ li {
     transform-origin: bottom left;
 }
 
+@media only screen and (max-width: 500px) {
+
+    .Nav h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 7.25vmin;
+    }
+
+    .Nav {
+        height: 8vh;
+    }
+    
+    .Nav ul {
+        width: 100vw;
+        top: 5.25%;
+        justify-content: center;
+        height: 4vh;
+    }
+
+    .Nav li {
+        font-size: 4vmin;
+    }
+
+    .material-symbols-outlined {
+        font-size: 5vmin;
+    }
+
+}

@@ -43,3 +43,37 @@
 .address {
     margin-top: -6vmin;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .Dates {
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        top: 32%;
+    }
+
+    .cities {
+        margin: 0 auto;
+        column-gap: 10vmin;
+        margin-top: -8vmin;
+    }
+
+    .cities h3 {
+        font-size: 8vmin;
+    }
+
+    .cities li {
+        font-size: 4vmin;
+    }
+
+    .city h6 {
+        font-size: 5vmin;
+        margin-top: 10vmin;
+    }
+
+    .address {
+        margin-top: -10vmin;
+    }
+    
+}

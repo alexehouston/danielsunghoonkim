@@ -45,4 +45,28 @@ a {
   z-index: 2;
   margin: -4vmin -4vmin 0 0;
   text-align: center;
+  font-size: 5vmin;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  html {
+    background-position: 15%;
+  }
+  
+  .home {
+    top: 40%;
+    right: 8%;
+  }
+
+  .home img {
+    width: 85vmin;
+  }
+
+  .home h1 {
+    font-size: 8vmin;
+    margin-top: -5vmin;
+  }
+  
 }
