@@ -3,6 +3,11 @@
   src: url('../../../public/fonts/karlina.ttf');
 }
 
+@font-face {
+  font-family: Do Hyeon;
+  src: url('../../../public/fonts/dohyeon.ttf');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -27,25 +32,33 @@ a {
   text-decoration: none;
 }
 
-.home, .home h1 {
+.home, .home h1, .sunghoon{
   position: absolute;
   right: 50%;
   top: 45%;
-  right: 10%;
+  right: 8%;
   animation: fadeInRight;
   animation-duration: 2s;
 }
 
 .home img {
-  width: 70vmin;
+  width: 75vmin;
   z-index: 1;
 }
 
 .home h1 {
   z-index: 2;
-  margin: -4vmin -4vmin 0 0;
+  font-size: 3.5vmin;
+  margin: 0 -4vmin 0 0;
   text-align: center;
-  font-size: 5vmin;
+}
+  
+.sunghoon {
+  font-family: 'Do Hyeon';
+  color: greenyellow;
+  font-size: 8.5vmin;
+  text-align: center;
+  margin: -8vmin 21.5vmin 0 0;
 }
 
 
@@ -64,9 +77,9 @@ a {
     width: 85vmin;
   }
 
-  .home h1 {
-    font-size: 8vmin;
-    margin-top: -5vmin;
+  .sunghoon {
+    width: 100%;
+    margin: -8vmin -6vmin 0 0;
   }
   
 }
