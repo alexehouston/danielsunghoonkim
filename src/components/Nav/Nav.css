@@ -135,7 +135,7 @@ li {
         width: 100vw;
         justify-content: center;
         position: absolute;
-        top: 890%;
+        top: 800%;
         animation: fadeInUp 2s;
     }
 
