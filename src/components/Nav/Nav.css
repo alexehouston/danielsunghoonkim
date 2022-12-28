@@ -8,8 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    animation: fadeInDown;
-    animation-duration: 2s;
+    animation: fadeInDown 2s;
 }
 
 h1 {
@@ -116,6 +115,10 @@ li {
 
 @media only screen and (max-width: 500px) {
 
+    .Nav {
+        animation: fadeInDown 2s;
+    }
+    
     .Nav h1 {
         width: 100%;
         text-align: center;
