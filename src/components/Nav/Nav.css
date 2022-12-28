@@ -85,6 +85,35 @@ li {
     transform-origin: bottom left;
 }
 
+@media only screen and (max-width: 1500px) {
+    
+    .Nav {
+        animation: none;
+    }
+
+    .Nav h1 {
+        font-size: 7.5vmin;
+        text-align: center;
+        width: 100vw;
+        padding: 0;
+        margin-top: 5vmin;
+        animation: fadeInDown 1s;
+    }
+  
+    .Nav ul {
+        width: 100vw;
+        justify-content: center;
+        position: absolute;
+        top: 820%;
+        animation: fadeInUp 2s;
+    }
+
+    .Nav li {
+        font-size: 4vmin;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
     .Nav h1 {
@@ -112,35 +141,6 @@ li {
 
     .material-symbols-outlined {
         font-size: 5vmin;
-    }
-
-}
-
-@media only screen and (max-width: 1500px) {
-    
-    .Nav {
-        animation: none;
-    }
-
-    .Nav h1 {
-        font-size: 7.5vmin;
-        text-align: center;
-        width: 100vw;
-        padding: 0;
-        margin-top: 5vmin;
-        animation: fadeInDown 1s;
-    }
-  
-    .Nav ul {
-        width: 100vw;
-        justify-content: center;
-        position: absolute;
-        top: 820%;
-        animation: fadeInUp 2s;
-    }
-
-    .Nav li {
-        font-size: 4vmin;
     }
 
 }
