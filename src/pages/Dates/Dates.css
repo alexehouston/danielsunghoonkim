@@ -19,10 +19,11 @@
     color: greenyellow;
     font-size: 5vmin;
     margin-right: 20vmin;
+    justify-content: center;
 }
 
 .cities h3 {
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
     background-image: url('/public/assets/paint.png');
     background-position: center;
     background-size: contain;
@@ -60,7 +61,7 @@
 
     .cities {
         margin: 0 auto;
-        column-gap: 10vmin;
+        column-gap: 5vmin;
         margin-top: -8vmin;
     }
 
