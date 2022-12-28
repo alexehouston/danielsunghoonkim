@@ -55,6 +55,10 @@ li {
     display: inline-block;
 }
 
+.title-hover {
+    color: greenyellow;
+}
+
 .hover {
     position: relative;
 }
