@@ -117,6 +117,10 @@ li {
 }
 
 @media only screen and (max-width: 1500px) {
+    
+    .Nav {
+        animation: none;
+    }
 
     .Nav h1 {
         font-size: 7.5vmin;
@@ -124,12 +128,15 @@ li {
         width: 100vw;
         padding: 0;
         margin-top: 5vmin;
+        animation: fadeInDown 1s;
     }
   
     .Nav ul {
-        bottom: -2vmin;
         width: 100vw;
         justify-content: center;
+        position: absolute;
+        top: 890%;
+        animation: fadeInUp 2s;
     }
 
     .Nav li {

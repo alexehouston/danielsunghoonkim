@@ -59,13 +59,13 @@
     }
 
     .about-info h3 {
-        font-size: 8vmin;
+        font-size: 6vmin;
         height: 15vmin;
     }
 
     .about-info p {
-        font-size: 2.5vmin;
-        width: 75vw;
+        font-size: 2.2vmin;
+        width: 65vw;
     }
 
 }
