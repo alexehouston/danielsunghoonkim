@@ -115,3 +115,25 @@ li {
     }
 
 }
+
+@media only screen and (max-width: 1500px) {
+
+    .Nav h1 {
+        font-size: 7.5vmin;
+        text-align: center;
+        width: 100vw;
+        padding: 0;
+        margin-top: 5vmin;
+    }
+  
+    .Nav ul {
+        bottom: -2vmin;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .Nav li {
+        font-size: 4vmin;
+    }
+
+}

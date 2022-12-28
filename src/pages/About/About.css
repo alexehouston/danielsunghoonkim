@@ -45,6 +45,31 @@
     margin-top: -1vmin;
 }
 
+@media only screen and (max-width: 1500px) {
+
+    .About {
+        justify-content: center;
+        height: 50vh;
+        top: 25%;
+    }
+
+    .about-info {
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-info h3 {
+        font-size: 8vmin;
+        height: 15vmin;
+    }
+
+    .about-info p {
+        font-size: 2.5vmin;
+        width: 75vw;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
     .About {

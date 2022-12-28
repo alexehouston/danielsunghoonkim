@@ -61,6 +61,19 @@ a {
   margin: -8vmin 21.5vmin 0 0;
 }
 
+@media only screen and (max-width: 1500px) {
+
+  html {
+    background-position: 10%;
+  }
+
+  .home {
+    top: 40%;
+    right: 12%;
+  }
+
+}
+
 
 @media only screen and (max-width: 500px) {
 

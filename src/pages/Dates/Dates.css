@@ -50,6 +50,37 @@
     margin-top: -7vmin;
 }
 
+@media only screen and (max-width: 1500px) {
+
+    .Dates {
+        justify-content: center;
+        height: 50vh;
+        top: 25%;
+    }
+
+    .cities {
+        margin: 0 auto;
+        column-gap: 10vmin;
+    }
+
+    .cities h3 {
+        font-size: 7vmin;
+    }
+
+    .cities li {
+        font-size: 3vmin;
+    }
+
+    .city h6 {
+        font-size: 4vmin;
+    }
+
+    .address {
+        margin-top: -8vmin;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
     .Dates {
