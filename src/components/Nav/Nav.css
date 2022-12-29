@@ -27,7 +27,7 @@ ul {
     background-image: url('/public/assets/nav-bg.jpg');
     background-size: cover;
     height: 10vh;
-    width: 80vmin;
+    width: 90vmin;
     align-items: center;
     justify-content: right;
     position: fixed;
@@ -44,6 +44,10 @@ li {
 
 .Nav a {
     color: navy;
+}
+
+i {
+    font-size: 3.5vmin;
 }
 
 .material-symbols-outlined {
@@ -102,13 +106,24 @@ li {
     .Nav ul {
         width: 100vw;
         justify-content: center;
+        align-items: center;
         position: absolute;
         top: 830%;
         animation: fadeInUp 2s;
+        column-gap: 5vmin;
     }
 
     .Nav li {
         font-size: 4vmin;
+    }
+
+    i {
+        font-size: 4vmin;
+    }
+
+    .material-symbols-outlined {
+        font-size: 4.5vmin;
+        padding-top: .5vmin;
     }
 
 }
@@ -144,6 +159,10 @@ li {
 
     .material-symbols-outlined {
         font-size: 5vmin;
+    }
+
+    i {
+        padding-bottom: 1vmin;
     }
 
 }
