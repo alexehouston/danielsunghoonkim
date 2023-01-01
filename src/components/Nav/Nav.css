@@ -27,7 +27,7 @@ ul {
     background-image: url('/public/assets/nav-bg.jpg');
     background-size: cover;
     height: 10vh;
-    width: 90vmin;
+    width: 100vmin;
     align-items: center;
     justify-content: right;
     position: fixed;
@@ -110,11 +110,11 @@ i {
         position: absolute;
         top: 830%;
         animation: fadeInUp 2s;
-        column-gap: 5vmin;
+        column-gap: 4vmin;
     }
 
     .Nav li {
-        font-size: 4vmin;
+        font-size: 3.5vmin;
     }
 
     i {
@@ -151,10 +151,7 @@ i {
         top: 70%;
         justify-content: center;
         height: 4vh;
-    }
-
-    .Nav li {
-        font-size: 4vmin;
+        column-gap: 3.75vmin;
     }
 
     .material-symbols-outlined {
