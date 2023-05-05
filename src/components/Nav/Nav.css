@@ -52,6 +52,7 @@ i {
 
 .material-symbols-outlined {
     font-size: 4vmin;
+    line-height: normal;
 }
 
 .title-hover, .hover {
