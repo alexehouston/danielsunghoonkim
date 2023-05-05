@@ -14,7 +14,7 @@ export default function Dates() {
                         <li>October 22 + 23</li>
                         <li>December 3 + 4</li>
                     </div>
-                    <a href="https://www.kcsalons.com/" target="_blank" rel="noreferrer"><h6>Rêve Studio</h6></a>
+                    <h6>Rêve Studio</h6>
                     <div className="address">
                         <a href="https://www.google.com/maps/place/R%C3%AAve+Luxury+Color+%2B+Extension+Studio/@30.2449988,-97.7808676,15z/data=!4m2!3m1!1s0x0:0x32be7c095c7ce35b?sa=X&ved=2ahUKEwjG-t3R_dz-AhW7lmoFHZMTCfwQ_BJ6BAhgEAc" target="_blank" rel="noreferrer">
                             <li>2708 S Lamar Blvd #100B</li>
