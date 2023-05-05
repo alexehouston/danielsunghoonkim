@@ -123,6 +123,7 @@ i {
     }
 
     .material-symbols-outlined {
+        line-height: 1;
         font-size: 4.5vmin;
         padding-top: .5vmin;
     }
