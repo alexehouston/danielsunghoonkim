@@ -18,7 +18,7 @@
     text-transform: uppercase;
     color: greenyellow;
     font-size: 5vmin;
-    margin-right: 25vmin;
+    margin-right: 32vmin;
     justify-content: center;
 }
 
@@ -37,8 +37,9 @@
 }
 
 .city h6 {
-    font-size: 3vmin;
-    margin-top: 10vmin;
+    font-size: 2.5vmin;
+    margin-top: 8vmin;
+    margin-bottom: 0;
     color: greenyellow;
 }
 
@@ -46,8 +47,8 @@
     margin: -2.5vmin;
 }
 
-.address {
-    margin-top: -7vmin;
+.salon-icons i {
+    padding: 0 1vmin;
 }
 
 .address li {
@@ -77,15 +78,11 @@
     }
 
     .city {
-        width: 40vmin;
+        width: 42vmin;
     }
 
     .city h6 {
         font-size: 3.5vmin;
-    }
-
-    .address {
-        margin-top: -7vmin;
     }
 
     .address li {
@@ -121,12 +118,13 @@
         margin-top: 10vmin;
     }
 
-    .address {
-        margin-top: -8vmin;
-    }
-
     .address li {
         font-size: 2.75vmin;
+    }
+
+    .salon i {
+        font-size: 5vmin;
+        padding: 2vmin;
     }
     
 }
