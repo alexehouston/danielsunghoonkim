@@ -37,7 +37,7 @@
 
 .button-54 {
     font-family: 'Glamour Karlina', serif;
-    font-size: 16px;
+    font-size: 2.5vmin;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
@@ -51,6 +51,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     margin: 12vmin auto;
+    transition: all 0.5s ease;
 }
 
 .button-54:active {
@@ -59,9 +60,12 @@
   left: 5px;
 }
 
+.button-54:hover {
+    font-size: 2.75vmin;
+}
+
 .button-54 a {
     color: black;
-    font-size: 2.5vmin;
 }
 
 .acuity-link:hover {
