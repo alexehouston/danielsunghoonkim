@@ -1,0 +1,190 @@
+.Booking {
+    background-color: rgba(82, 9, 146, 0.35);
+    animation: fadeInRight;
+    animation-duration: 1s;
+    width: 100vw;
+    height: 60vh;
+    position: fixed;
+    right: 0;
+    top: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.booking-info {
+    display: flex;
+    column-gap: 12vmin;
+    text-transform: uppercase;
+    color: greenyellow;
+    font-size: 5vmin;
+    margin-right: 20vmin;
+    justify-content: center;
+}
+
+.booking-info h3 {
+    background-image: url('/public/assets/paint.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.cali-booking, .texas-booking {
+    width: 40vmin;
+}
+
+.button-54 {
+    font-family: 'Glamour Karlina', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 12vmin auto;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.button-54 a {
+    color: black;
+    font-size: 2.5vmin;
+}
+
+.acuity-link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.mare h5 {
+    margin: 7vmin 0 3vmin;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 2vmin;
+    padding-bottom: 3vmin;
+}
+
+.contact-icons i {
+    transition: all 0.5s ease;
+}
+
+.contact-icons i:hover {
+    color: greenyellow;
+    transform: scale(1.2);
+}
+
+.mare-address {
+    font-size: 2.2vmin;
+    text-transform: none;
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -.5vmin;
+    left: 0;
+    background-color: greenyellow;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .Booking {
+        justify-content: center;
+        height: 50vh;
+        top: 25%;
+    }
+
+    .booking-info {
+        margin: 0 auto;
+        column-gap: 10vmin;
+    }
+
+    .booking-info h3 {
+        font-size: 7vmin;
+    }
+
+    .button-54 a {
+        font-size: 3.25vmin;
+    }
+
+    .contact-icons {
+        column-gap: 3vmin;
+    }
+
+    .mare h5 {
+        font-size: 5vmin;
+    }
+
+    .mare i {
+        font-size: 5vmin;
+    }
+
+    .mare-address {
+        font-size: 2.5vmin;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Booking {
+        justify-content: center;
+        align-items: center;
+        height: 55vh;
+        top: 28%;
+    }
+
+    .booking-info {
+        margin: 0 auto;
+        margin-top: -8vmin;
+    }
+
+    .booking-info h3 {
+        margin-bottom: 12vmin;
+    }
+
+    .button-54 {
+        margin: 8vmin auto;
+    }
+
+    .mare-address {
+        font-size: 3vmin;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+}

@@ -96,6 +96,7 @@
     .cities {
         margin: 0 auto;
         margin-top: -8vmin;
+        width: 90%;
     }
 
     .cities h3 {
@@ -103,7 +104,7 @@
     }
 
     .cities li {
-        font-size: 4vmin;
+        font-size: 3.5vmin;
     }
 
     .city h6 {
