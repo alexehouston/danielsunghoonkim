@@ -23,7 +23,7 @@
     font-size: 5vmin;
     padding-right: 28vmin;
     margin-top: -4vmin;
-    height: 55vh
+    height: 55vh;
 }
 
 .about-info h3 {
@@ -38,8 +38,9 @@
 }
 
 .about-info p {
+    font-family: 'Roboto Mono', monospace;
     text-transform: none;
-    font-size: 2vmin;
+    font-size: 1.5vmin;
     color: white;
     width: 60vmin;
     margin-top: -1vmin;
@@ -64,8 +65,8 @@
     }
 
     .about-info p {
-        font-size: 2.2vmin;
-        width: 65vw;
+        font-size: 2vmin;
+        width: 70vw;
     }
 
 }
@@ -89,7 +90,7 @@
     }
 
     .about-info p {
-        font-size: 3.2vmin;
+        font-size: 2.7vmin;
         width: 84vw;
     }
 

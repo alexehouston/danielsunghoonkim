@@ -36,8 +36,9 @@
 }
 
 .button-54 {
-    font-family: 'Glamour Karlina', serif;
-    font-size: 2.5vmin;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.25vmin;
+    font-weight: 500;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
@@ -61,7 +62,7 @@
 }
 
 .button-54:hover {
-    font-size: 2.75vmin;
+    font-size: 2.5vmin;
 }
 
 .button-54 a {
@@ -94,7 +95,8 @@
 }
 
 .mare-address {
-    font-size: 2.2vmin;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7vmin;
     text-transform: none;
 }
 
@@ -135,7 +137,8 @@
     }
 
     .booking-info h3 {
-        font-size: 7vmin;
+        font-size: 6vmin;
+        line-height: 2;
     }
 
     .button-54 a {
@@ -181,10 +184,6 @@
 
     .button-54 {
         margin: 15vmin auto;
-    }
-
-    .mare-address {
-        font-size: 3vmin;
     }
 }
 

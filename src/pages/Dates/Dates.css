@@ -30,14 +30,15 @@
 }
 
 .city li {
-    text-transform: none;
+    font-family: 'Roboto Mono', monospace;
     color: white;
     line-height: 1.5;
-    font-size: 2.5vmin;
+    font-size: 2vmin;
 }
 
 .city h6 {
-    margin-top: 6vmin;
+    font-size: 3vmin;
+    margin-top: 10vmin;
     color: greenyellow;
 }
 
@@ -50,7 +51,8 @@
 }
 
 .address li {
-    font-size: 2.2vmin;
+    font-size: 1.8vmin;
+    text-transform: none;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -74,12 +76,20 @@
         font-size: 2.5vmin;
     }
 
+    .city {
+        width: 40vmin;
+    }
+
     .city h6 {
         font-size: 3.5vmin;
     }
 
     .address {
         margin-top: -7vmin;
+    }
+
+    .address li {
+        font-size: 2.2vmin;
     }
 
 }
@@ -96,7 +106,6 @@
     .cities {
         margin: 0 auto;
         margin-top: -8vmin;
-        width: 90%;
     }
 
     .cities h3 {
@@ -108,12 +117,16 @@
     }
 
     .city h6 {
-        font-size: 5vmin;
+        font-size: 3.6vmin;
         margin-top: 10vmin;
     }
 
     .address {
-        margin-top: -10vmin;
+        margin-top: -8vmin;
+    }
+
+    .address li {
+        font-size: 2.75vmin;
     }
     
 }
