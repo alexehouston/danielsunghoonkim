@@ -77,6 +77,16 @@ a {
     right: 12%;
   }
 
+  .home h1 {
+    font-size: 3vmin;
+    margin-top: 0.5vmin;
+  }
+
+  .sunghoon {
+    font-size: 10vmin;
+    margin: -8.5vmin 20vmin 0 0;
+  }
+
 }
 
 
@@ -95,9 +105,14 @@ a {
     width: 85vmin;
   }
 
+  .home h1 {
+    font-size: 3.25vmin;
+  }
+
   .sunghoon {
     width: 100%;
-    margin: -8vmin -6vmin 0 0;
+    margin: -9vmin -6vmin 0 0;
+    font-size: 11vmin;
   }
   
 }
