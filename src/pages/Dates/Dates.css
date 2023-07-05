@@ -47,13 +47,27 @@
     margin: -2.5vmin;
 }
 
+.past-date {
+    opacity: 50%;
+}
+
 .salon-icons i {
     padding: 0 1vmin;
+    transition: all .5s ease;
+}
+
+.salon-icons i:hover {
+    color: greenyellow;
 }
 
 .address li {
     font-size: 1.8vmin;
     text-transform: none;
+    transition: all .5s ease;
+}
+
+.address li:hover {
+    color: greenyellow;
 }
 
 @media only screen and (max-width: 1500px) {

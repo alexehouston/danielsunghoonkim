@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import 'animate.css';
 import Nav from '../../components/Nav/Nav';
 import Booking from '../../pages/Booking/Booking';
@@ -8,10 +8,22 @@ import './App.css';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 576);
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <>
-      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} isSmallScreen={isSmallScreen} />
       {currentPage === 'booking' ? ( <Booking /> )
       : currentPage === 'dates' ? ( <Dates /> )
       : currentPage === 'about' ? ( <About /> )
