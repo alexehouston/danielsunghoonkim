@@ -45,10 +45,12 @@
 
 .dates {
     margin: -2.5vmin;
+    font-weight: 500;
 }
 
 .past-date {
-    opacity: 50%;
+    opacity: 60%;
+    font-weight: 300;
 }
 
 .salon-icons i {
