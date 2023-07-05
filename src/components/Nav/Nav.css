@@ -91,11 +91,12 @@ i {
 
 .mobile-social {
     position: fixed;
-    top: 16%;
-    display: flex;
+    bottom: 2.5%;
+    right: 0;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     animation: fadeInUp 2s;
 }
 
