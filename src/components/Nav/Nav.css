@@ -173,11 +173,11 @@ i {
         top: 70%;
         justify-content: center;
         height: 4vh;
-        column-gap: 3.75vmin;
+        column-gap: 4vmin;
     }
 
     .Nav li {
-        font-size: 4vmin;
+        font-size: 4.25vmin;
     }
 
     .material-symbols-outlined {
