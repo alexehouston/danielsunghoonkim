@@ -19,11 +19,8 @@ export default function Booking() {
                             <li><a href="tel:4242743479"><i className="fa-solid fa-phone"></i></a></li>
                             <li><a href="mailto:info@maresalon.com" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a></li>
                         </div>
-                        <li className="mare-address hover"><a href="https://www.google.com/maps/place/152+N+Wetherly+Dr,+West+Hollywood,+CA+90048/@34.0768405,-118.3884913,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2beabea185d27:0xd5a9c036f831abc8!8m2!3d34.0768405!4d-118.3884913!16s%2Fg%2F11bw4f18rr?entry=ttu" target="_blank" rel="noreferrer">
-                            152 North Wetherly Drive<br/>
-                            West Hollywood, CA 90048
-                        </a></li>
-                </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.7141786706607!2d-118.3884913!3d34.076840499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2beabea185d27%3A0xd5a9c036f831abc8!2s152%20N%20Wetherly%20Dr%2C%20West%20Hollywood%2C%20CA%2090048!5e0!3m2!1sen!2sus!4v1688681340040!5m2!1sen!2sus" title="Reve Studio" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </div>

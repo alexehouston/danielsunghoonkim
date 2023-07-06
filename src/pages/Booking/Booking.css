@@ -95,33 +95,9 @@
     transform: scale(1.2);
 }
 
-.mare-address {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.7vmin;
-    text-transform: none;
-}
-
-.hover {
-    display: inline-block;
-    position: relative;
-}
-  
-.hover::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: -.5vmin;
-    left: 0;
-    background-color: greenyellow;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-  
-.hover:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.mare iframe {
+    width: 80%;
+    height: 15vmin;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -158,10 +134,13 @@
         font-size: 5vmin;
     }
 
-    .mare-address {
-        font-size: 2.5vmin;
-    }
+}
 
+@media (min-width: 768px) {
+
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -186,7 +165,7 @@
     }
 
     .button-54 {
-        margin: 5vmin 0 15vmin;
+        margin: 5vmin 0 10vmin;
     }
 
     .texas-booking, .cali-booking {
@@ -194,18 +173,13 @@
     }
 
     .mare h5 {
-        margin-top: 5vmin;
+        margin-top: 1vmin;
         font-size: 7vmin;
     }
 
-    .mare-address {
-        font-size: 3vmin;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .button-54 {
-      padding: 0.25em 0.75em;
+    .mare iframe {
+        width: 90%;
+        height: 20vmin;
+        margin: 1vmin;
     }
 }
