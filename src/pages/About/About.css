@@ -21,7 +21,7 @@
     text-transform: uppercase;
     color: greenyellow;
     font-size: 5vmin;
-    padding-right: 28vmin;
+    padding-right: 35vmin;
     margin-top: -4vmin;
     height: 55vh;
 }
@@ -31,10 +31,11 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    border-bottom: 1px solid;
-    height: 11vmin;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 1vmin 0;
 }
 
 .about-info p {

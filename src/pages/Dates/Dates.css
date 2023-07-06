@@ -18,7 +18,7 @@
     text-transform: uppercase;
     color: greenyellow;
     font-size: 5vmin;
-    margin-right: 32vmin;
+    margin-right: 20vmin;
     justify-content: center;
 }
 
@@ -27,6 +27,11 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    padding: .5vmin 0;
+}
+
+.city {
+    width: 40vmin;
 }
 
 .city li {
@@ -37,7 +42,7 @@
 }
 
 .city h6 {
-    font-size: 2.5vmin;
+    font-size: 3.5vmin;
     margin-top: 8vmin;
     margin-bottom: 0;
     color: greenyellow;
@@ -129,7 +134,7 @@
     }
 
     .city h6 {
-        font-size: 3.6vmin;
+        font-size: 5vmin;
         margin-top: 10vmin;
     }
 

@@ -29,6 +29,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0;
+    padding: 1vmin 0;
 }
 
 .cali-booking, .texas-booking {
@@ -180,8 +181,8 @@
     }
 
     .booking-info h3 {
-        font-size: 6vmin;
-        /* line-height: 3; */
+        font-size: 9vmin;
+        padding: 0;
     }
 
     .button-54 {
@@ -189,7 +190,7 @@
     }
 
     .texas-booking, .cali-booking {
-        width: 100%;
+        width: 50%;
     }
 
     .mare h5 {

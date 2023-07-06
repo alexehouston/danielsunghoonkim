@@ -18,11 +18,12 @@ h1 {
     font-size: 6vmin;
     color: greenyellow;
     padding: 1vmin 0 0 2vmin;
+    
 }
 
 ul {
     display: flex;
-    column-gap: 6vmin;
+    column-gap: 9vmin;
     background-color: whitesmoke;
     background-image: url('/public/assets/nav-bg.jpg');
     background-size: cover;
@@ -159,7 +160,7 @@ i {
     .Nav h1 {
         width: 100%;
         text-align: center;
-        font-size: 6.5vmin;
+        font-size: 9vmin;
         padding: 0;
     }
 
@@ -173,11 +174,11 @@ i {
         top: 70%;
         justify-content: center;
         height: 4vh;
-        column-gap: 4vmin;
+        column-gap: 6vmin;
     }
 
     .Nav li {
-        font-size: 4.25vmin;
+        font-size: 5vmin;
     }
 
     .material-symbols-outlined {
