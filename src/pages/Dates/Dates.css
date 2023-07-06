@@ -42,8 +42,8 @@
 }
 
 .city h6 {
-    font-size: 3.5vmin;
-    margin-top: 8vmin;
+    font-size: 3vmin;
+    margin-top: 6vmin;
     margin-bottom: 0;
     color: greenyellow;
 }
@@ -58,23 +58,13 @@
     font-weight: 300;
 }
 
-.salon-icons i {
-    padding: 0 1vmin;
-    transition: all .5s ease;
-}
-
-.salon-icons i:hover {
-    color: greenyellow;
-}
-
-.address li {
-    font-size: 1.8vmin;
-    text-transform: none;
-    transition: all .5s ease;
-}
-
-.address li:hover {
-    color: greenyellow;
+iframe {
+    width: 60%;
+    height: 12vmin;
+    border-radius: 10px;
+    filter: invert(1) saturate(0) drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    border: none;
+    margin: 1vmin 2vmin;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -106,10 +96,6 @@
         font-size: 3.5vmin;
     }
 
-    .address li {
-        font-size: 2.2vmin;
-    }
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -122,7 +108,7 @@
 
     .cities {
         margin: 0 auto;
-        margin-top: -8vmin;
+        margin-top: -6vmin;
     }
 
     .cities h3 {
@@ -138,13 +124,10 @@
         margin-top: 10vmin;
     }
 
-    .address li {
-        font-size: 2.75vmin;
-    }
-
-    .salon i {
-        font-size: 5vmin;
-        padding: 2vmin;
+    iframe {
+        width: 85%;
+        height: 25vmin;
+        margin: 3vmin;
     }
     
 }
