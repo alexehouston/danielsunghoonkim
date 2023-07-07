@@ -23,12 +23,12 @@ h1 {
 
 ul {
     display: flex;
-    column-gap: 9vmin;
+    column-gap: 10vmin;
     background-color: whitesmoke;
     background-image: url('/public/assets/nav-bg.jpg');
     background-size: cover;
     height: 10vh;
-    width: 100vmin;
+    width: 110vmin;
     align-items: center;
     justify-content: right;
     position: fixed;
@@ -49,11 +49,6 @@ li {
 
 i {
     font-size: 3.5vmin;
-}
-
-.material-symbols-outlined {
-    font-size: 4vmin;
-    line-height: normal;
 }
 
 .title-hover, .hover {
@@ -90,6 +85,14 @@ i {
     transform-origin: bottom left;
 }
 
+.Nav .fa-instagram, .Nav .fa-envelope {
+    padding: 1vmin;
+    border-radius: 50%;
+    background-color: navy;
+    color: #fff;
+    filter: drop-shadow(0 0 .25rem black);
+}
+
 .mobile-social {
     position: fixed;
     bottom: 4%;
@@ -105,9 +108,6 @@ i {
     font-size: 5vmin;
     margin: 0 5vmin;
     padding: 2vmin;
-    border-radius: 50%;
-    background-color: navy;
-    filter: drop-shadow(0 0 .25rem black);
 }
 
 @media only screen and (max-width: 1500px) {
@@ -143,12 +143,6 @@ i {
         font-size: 4vmin;
     }
 
-    .material-symbols-outlined {
-        line-height: 1;
-        font-size: 4.5vmin;
-        padding-top: .5vmin;
-    }
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -178,10 +172,6 @@ i {
     }
 
     .Nav li {
-        font-size: 5vmin;
-    }
-
-    .material-symbols-outlined {
         font-size: 5vmin;
     }
 

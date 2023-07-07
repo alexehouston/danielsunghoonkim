@@ -67,7 +67,7 @@ export default function Nav({ currentPage, setCurrentPage, isSmallScreen }) {
             <li className="hover" onClick={() => setCurrentPage("about")}>
               About
             </li>
-            <li className="hover">
+            <li>
               <a
                 href="https://instagram.com/danielsunghoonkim/"
                 target="_blank"
@@ -76,7 +76,7 @@ export default function Nav({ currentPage, setCurrentPage, isSmallScreen }) {
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
-            <li className="hover">
+            <li>
               <a href="mailto:daniel@danielsunghoonkim.com">
                 <i className="fa-regular fa-envelope"></i>
               </a>
