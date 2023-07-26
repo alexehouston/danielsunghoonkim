@@ -85,7 +85,7 @@ i {
     transform-origin: bottom left;
 }
 
-.Nav .fa-instagram, .Nav .fa-envelope {
+.Nav .fa-instagram, .Nav .fa-envelope, .mobile-social-icon {
     padding: 1vmin;
     border-radius: 50%;
     background-color: navy;
