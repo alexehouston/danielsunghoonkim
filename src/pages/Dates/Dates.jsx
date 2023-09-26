@@ -9,8 +9,8 @@ export default function Dates() {
                     <div className="dates">
                         <li className="past-date">April 30 + May 1</li>
                         <li className="past-date">June 11 + 12</li>
-                        <li>August 6 + 7</li>
-                        <li>September 10</li>
+                        <li className="past-date">August 6 + 7</li>
+                        <li className="past-date">September 10</li>
                         <li>October 22 + 23</li>
                         <li>December 3 + 4</li>
                     </div>
@@ -24,7 +24,7 @@ export default function Dates() {
                     <div className="dates">
                         <li className="past-date">March 19</li>
                         <li className="past-date">June 13</li>
-                        <li>September 11</li>
+                        <li className="past-date">September 11</li>
                         <li>December 6</li>
                         <li>&nbsp;</li>
                         <li>&nbsp;</li>
