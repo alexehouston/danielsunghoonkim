@@ -73,12 +73,12 @@ export default function Nav({ currentPage, setCurrentPage, isSmallScreen }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-square-instagram"></i>
               </a>
             </li>
             <li>
               <a href="mailto:daniel@danielsunghoonkim.com">
-                <i className="fa-regular fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
               </a>
             </li>
           </ul>
