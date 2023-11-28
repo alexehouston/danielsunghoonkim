@@ -7,12 +7,19 @@ export default function Dates() {
                 <div className="city">
                     <h3>Austin</h3>
                     <div className="dates">
-                        <li className="past-date">April 30 + May 1</li>
-                        <li className="past-date">June 11 + 12</li>
-                        <li className="past-date">August 6 + 7</li>
-                        <li className="past-date">September 10</li>
-                        <li>October 22 + 23</li>
-                        <li>December 3 + 4</li>
+                        <div className="col">
+                            <li>Jan 14 + 15</li>
+                            <li>Feb 25 + 26</li>
+                            <li>Apr 7 + 8</li>
+                            <li>May 19 + 20</li>
+                            <li>Jun 30 + Jul 1</li>
+                        </div>
+                        <div className="col">
+                            <li>Aug 11 + 12</li>
+                            <li>Sep 22 + 23</li>
+                            <li>Nov 3 + 4</li>
+                            <li>Dec 15 + 16</li>
+                        </div>
                     </div>
                     <div className="salon">
                         <h6>Rêve Studio</h6>
@@ -22,12 +29,19 @@ export default function Dates() {
                 <div className="city">
                     <h3>Dallas</h3>
                     <div className="dates">
-                        <li className="past-date">March 19</li>
-                        <li className="past-date">June 13</li>
-                        <li className="past-date">September 11</li>
-                        <li>December 6</li>
-                        <li>&nbsp;</li>
-                        <li>&nbsp;</li>
+                        <div>
+                            <li className="past-date">March 19</li>
+                            <li className="past-date">June 13</li>
+                            <li className="past-date">September 11</li>
+                            <li>December 6</li>
+                            <li>&nbsp;</li>
+                            <div className="sm-col">
+                                <li>&nbsp;</li>
+                                <li>&nbsp;</li>
+                                <li>&nbsp;</li>
+                                <li>&nbsp;</li>
+                            </div>
+                        </div>
                     </div>
                     <div className="salon">
                         <h6>Kevin Charles Salon</h6>

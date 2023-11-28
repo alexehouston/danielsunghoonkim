@@ -51,6 +51,16 @@
 .dates {
     margin: -2.5vmin;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.dates div {
+    padding: 0 1.5rem;
+}
+
+.dates .sm-col {
+    display: none;
 }
 
 .past-date {
@@ -98,7 +108,7 @@ iframe {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 567px) {
 
     .Dates {
         justify-content: center;
@@ -129,5 +139,16 @@ iframe {
         height: 25vmin;
         margin: 3vmin;
     }
-    
+
+    .dates {
+        flex-direction: column;
+    }
+
+    .dates .col {
+        text-align: center;
+    }
+
+    .dates .sm-col {
+        display: block;
+    }
 }

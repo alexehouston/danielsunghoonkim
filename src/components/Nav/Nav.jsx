@@ -7,7 +7,7 @@ export default function Nav({ currentPage, setCurrentPage, isSmallScreen }) {
         <>
           <div className="Nav">
             <h1 className="title-hover" onClick={() => setCurrentPage("home")}>
-              Daniel Sung hoon Kim
+              Daniel Sung Hoon Kim
             </h1>
             <ul>
               <li className="hover" onClick={() => setCurrentPage("booking")}>
@@ -46,7 +46,7 @@ export default function Nav({ currentPage, setCurrentPage, isSmallScreen }) {
       ) : (
         <div className="Nav">
           <h1 className="title-hover" onClick={() => setCurrentPage("home")}>
-            Daniel Sung hoon Kim
+            Daniel Sung Hoon Kim
           </h1>
           <ul>
             <li className="hover" onClick={() => setCurrentPage("booking")}>
@@ -73,12 +73,12 @@ export default function Nav({ currentPage, setCurrentPage, isSmallScreen }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa-brands fa-square-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
             <li>
               <a href="mailto:daniel@danielsunghoonkim.com">
-                <i className="fa-solid fa-envelope"></i>
+                <i className="fa-regular fa-envelope"></i>
               </a>
             </li>
           </ul>
