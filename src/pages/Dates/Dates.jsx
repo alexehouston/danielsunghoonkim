@@ -7,16 +7,16 @@ export default function Dates() {
         <div className="container">
           <div className="row d-flex justify-content-end">
             <div className="col-6 col-md-4 col-lg-3 text-center me-lg-5">
-              <h3 className="canopee bg-paint text-neon fs-1 p-2">Austin</h3>
-              <div className="d-flex flex-column flex-lg-row my-4 fw-bold text-white text-start lh-lg">
-                <ul className="dates roboto text-uppercase list-unstyled mx-auto mb-0">
+              <h3 className="header-font bg-paint text-neon fs-1 p-2 text-uppercase">Austin</h3>
+              <div className="d-flex flex-column flex-lg-row my-4 fw-bold text-white text-start lh-lg text-uppercase">
+                <ul className="dates body-font list-unstyled mx-auto mb-0">
                   <li>Jan 14 + 15</li>
                   <li>Feb 25 + 26</li>
                   <li>Apr 7 + 8</li>
                   <li>May 19 + 20</li>
                   <li>Jun 30 + Jul 1</li>
                 </ul>
-                <ul className="dates roboto text-uppercase list-unstyled mx-auto mb-0">
+                <ul className="dates body-font list-unstyled mx-auto mb-0">
                   <li>Aug 11 + 12</li>
                   <li>Sep 22 + 23</li>
                   <li>Nov 3 + 4</li>
@@ -24,10 +24,10 @@ export default function Dates() {
                 </ul>
               </div>
               <div>
-                <h5 className="text-neon canopee text-uppercase fs-3">Rêve Studio</h5>
+                <p className="salon text-neon header-font text-lowercase mb-0">Reve<br className="d-block d-lg-none" /> Studio</p>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13786.888624291569!2d-97.7808676!3d30.2449988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b563f639ac6f%3A0x32be7c095c7ce35b!2sR%C3%AAve%20Luxury%20Color%20%2B%20Extension%20Studio!5e0!3m2!1sen!2sus!4v1688680218690!5m2!1sen!2sus"
-                  className="w-100 h-25 m-0"
+                  className="w-100 h-25 m-0 mt-2"
                   title="Reve Studio"
                   allowFullScreen=""
                   loading="lazy"
@@ -36,9 +36,9 @@ export default function Dates() {
               </div>
             </div>
             <div className="col-6 col-md-4 col-lg-3 text-center me-lg-5">
-              <h3 className="canopee bg-paint text-neon fs-1 p-2">Dallas</h3>
-              <div className="d-flex my-4 fw-bold text-white text-start lh-lg">
-                <ul className="dates roboto text-uppercase list-unstyled mx-auto mb-0">
+              <h3 className="header-font bg-paint text-neon fs-1 p-2 text-uppercase">Dallas</h3>
+              <div className="d-flex my-4 fw-bold text-white text-start lh-lg text-uppercase">
+                <ul className="dates body-font list-unstyled mx-auto mb-0">
                   <li className="opacity-25">Mar 19</li>
                   <li className="opacity-25">Jun 13</li>
                   <li className="opacity-25">Sep 11</li>
@@ -51,10 +51,10 @@ export default function Dates() {
                 </ul>
               </div>
               <div>
-                <h5 className="text-neon canopee text-uppercase fs-3">Kevin Charles Salon</h5>
+                <p className="salon text-neon header-font text-lowercase mb-0">Kevin Charles Salon</p>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13407.801240363377!2d-96.7873256!3d32.8465673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9f5be293b89d%3A0x3206fbe57886a431!2sKevin%20Charles%20Salon!5e0!3m2!1sen!2sus!4v1688680402062!5m2!1sen!2sus"
-                  className="w-100 h-25 m-0"
+                  className="w-100 h-25 m-0 mt-2"
                   title="Kevin Charles Salon"
                   allowFullScreen=""
                   loading="lazy"

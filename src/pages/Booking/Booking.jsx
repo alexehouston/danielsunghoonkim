@@ -7,10 +7,10 @@ export default function Booking() {
         <div className="container">
           <div className="row d-flex justify-content-end">
             <div className="col-12 col-md-6 col-lg-3 text-center me-lg-5">
-              <h3 className="canopee bg-paint text-neon fs-1 p-2">Texas</h3>
-              <button className="booking-button roboto mt-3 mt-lg-5 mb-5 mb-lg-0 py-1 px-3 fs-6 fw-bold text-uppercase border border-3 border-black">
+              <h3 className="header-font bg-paint text-neon fs-1 p-3 text-uppercase">Texas</h3>
+              <button className="booking-button mt-3 mt-lg-5 mb-5 mb-lg-0 py-1 px-3 fs-5 fw-bold border border-3 border-black">
                 <a
-                  className="text-black"
+                  className="text-black header-font text-lowercase"
                   href="https://danielkim.as.me/"
                   target="_blank"
                   rel="noreferrer"
@@ -20,12 +20,12 @@ export default function Booking() {
               </button>
             </div>
             <div className="col-12 col-md-6 col-lg-3 text-center">
-              <h3 className="canopee bg-paint text-neon fs-1 p-2">
+              <h3 className="header-font bg-paint text-neon fs-1 p-3 text-uppercase">
                 California
               </h3>
               <div>
-                <h5 className="text-neon canopee text-uppercase fs-1 fs-lg-3 mt-3 mt-lg-5">
-                  Mare Salon
+                <h5 className="text-white header-font fs-2 mt-3 mt-lg-5">
+                  mare salon
                 </h5>
                 <ul className="list-unstyled d-flex justify-content-between align-items-center py-3 w-75 mx-auto">
                   <li className="fs-5 fs-lg-4">

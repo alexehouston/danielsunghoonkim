@@ -7,10 +7,10 @@ export default function About() {
         <div className="container">
           <div className="row d-flex justify-content-end">
             <div className="col-12 col-lg-5 text-center me-lg-5 pe-lg-5">
-              <h3 className="canopee bg-paint text-neon fs-1 p-2">
+              <h3 className="header-font bg-paint text-neon fs-1 py-4 text-uppercase">
                 About Daniel
               </h3>
-              <p className="roboto text-white small mx-auto mt-5">
+              <p className="body-font text-white small mx-auto mt-5">
                 Daniel is a hairstylist with a decade of experience in the
                 industry. He started his journey as a hairstylist at the young
                 age of 17 and has since then had the opportunity to work with

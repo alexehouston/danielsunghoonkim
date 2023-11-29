@@ -6,28 +6,28 @@ export default function Nav() {
     <div className="Nav navbar fixed-top py-0 animate__animated animate__fadeInDown animate__slow">
       <div className="col-12 col-md-12 col-lg-7 my-auto ps-lg-4 py-3 py-lg-0">
         <Link to="/">
-          <h1 className="title-hover text-neon canopee mb-0 position-relative lh-1">
-            Daniel Sung Hoon Kim
+          <h1 className="title-hover text-neon header-font mb-0 position-relative lh-1 text-uppercase">
+            Daniel Sung Hoon Kim*
           </h1>
         </Link>
       </div>
       <div className="col-12 col-md-12 col-lg-5 nav-right py-2 py-lg-4">
-        <ul className="d-flex align-items-center justify-content-around mb-0 px-0 list-unstyled">
-          <Link className="text-navy canopee fs-4" to="/booking">
+        <ul className="d-flex align-items-center justify-content-around mb-0 px-0 list-unstyled text-lowercase">
+          <Link className="text-navy header-font fs-4" to="/booking">
             <li className="hover">Book</li>
           </Link>
-          <Link className="text-navy canopee fs-4" to="/dates">
+          <Link className="text-navy header-font fs-4" to="/dates">
             <li className="hover">Dates</li>
           </Link>
           <a
             href="https://shop.saloninteractive.com/store/DanielKim"
             target="_blank"
             rel="noreferrer"
-            class="text-navy canopee fs-4"
+            class="text-navy header-font fs-4"
           >
             <li className="hover">Shop</li>
           </a>
-          <Link className="text-navy canopee fs-4" to="/about">
+          <Link className="text-navy header-font fs-4" to="/about">
             <li className="hover">About</li>
           </Link>
           <li>
