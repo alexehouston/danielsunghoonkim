@@ -70,12 +70,6 @@ iframe {
 
 @media only screen and (max-width: 1500px) {
   .App {
-    background-position: 6%;
-  }
-}
-
-@media only screen and (max-width: 567px) {
-  .App {
-    background-position: 17%;
+    background-image: url("../../../public/assets/bg-mobile.png");
   }
 }

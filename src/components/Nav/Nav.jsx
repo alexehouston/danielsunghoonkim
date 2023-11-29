@@ -12,7 +12,7 @@ export default function Nav() {
         </Link>
       </div>
       <div className="col-12 col-md-12 col-lg-5 nav-right py-2 py-lg-4">
-        <ul className="d-flex justify-content-around mb-0 px-0 list-unstyled">
+        <ul className="d-flex align-items-center justify-content-around mb-0 px-0 list-unstyled">
           <Link className="text-navy canopee fs-4" to="/booking">
             <li className="hover">Book</li>
           </Link>
