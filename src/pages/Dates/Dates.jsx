@@ -6,7 +6,7 @@ export default function Dates() {
       <div className="bg-transparent-purple container-fluid py-5 mt-5">
         <div className="container">
           <div className="row d-flex justify-content-end">
-            <div className="col-6 col-md-4 col-lg-3 mx-auto text-center me-lg-5">
+            <div className="col-6 col-md-4 col-lg-3 text-center me-lg-5">
               <h3 className="canopee bg-paint text-neon fs-1 p-2">Austin</h3>
               <div className="d-flex flex-column flex-lg-row my-4 fw-bold text-white text-start lh-lg">
                 <ul className="dates roboto text-uppercase list-unstyled mx-auto mb-0">
@@ -35,7 +35,7 @@ export default function Dates() {
                 ></iframe>
               </div>
             </div>
-            <div className="col-6 col-md-4 col-lg-3 mx-auto text-center me-lg-5">
+            <div className="col-6 col-md-4 col-lg-3 text-center me-lg-5">
               <h3 className="canopee bg-paint text-neon fs-1 p-2">Dallas</h3>
               <div className="d-flex my-4 fw-bold text-white text-start lh-lg">
                 <ul className="dates roboto text-uppercase list-unstyled mx-auto mb-0">

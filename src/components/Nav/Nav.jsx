@@ -3,7 +3,7 @@ import "./Nav.css";
 
 export default function Nav() {
   return (
-    <div className="Nav navbar fixed-top py-0">
+    <div className="Nav navbar fixed-top py-0 animate__animated animate__fadeInDown animate__slow">
       <div className="col-12 col-md-12 col-lg-7 my-auto ps-lg-4 py-3 py-lg-0">
         <Link to="/">
           <h1 className="title-hover text-neon canopee mb-0 position-relative lh-1">

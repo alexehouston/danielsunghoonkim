@@ -2,6 +2,10 @@
   .dates {
     text-align: center;
   }
+
+  .Booking .col-6 {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 567px) {
