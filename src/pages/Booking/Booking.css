@@ -1,11 +1,12 @@
 .booking-button {
-    letter-spacing: 2px;
-    cursor: pointer;
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-    transition: all 0.5s ease;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 1px 1px 0px 0px black, 2px 2px 0px 0px black,
+    3px 3px 0px 0px black, 4px 4px 0px 0px black, 5px 5px 0px 0px black;
+  transition: all 0.5s ease;
 }
 
 .booking-button:hover {
-    font-size: 1.1rem !important;
-    background-color: greenyellow;
+  font-size: 1.1rem !important;
+  background-color: greenyellow;
 }
