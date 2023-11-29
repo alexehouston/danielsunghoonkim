@@ -1,37 +1,26 @@
-import { useState, useEffect } from 'react';
-import 'animate.css';
+import { Routes, Route, useLocation } from "react-router-dom";
 import Nav from '../../components/Nav/Nav';
+import Home from '../../pages/Home/Home';
 import Booking from '../../pages/Booking/Booking';
 import Dates from '../../pages/Dates/Dates';
 import About from '../../pages/About/About';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'animate.css';
 import './App.css';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState('home');
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 576);
-    };
-
-    window.addEventListener('resize', handleResize);
-    handleResize();
-
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  const location = useLocation();
 
   return (
-    <>
-      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} isSmallScreen={isSmallScreen} />
-      {currentPage === 'booking' ? ( <Booking /> )
-      : currentPage === 'dates' ? ( <Dates /> )
-      : currentPage === 'about' ? ( <About /> )
-      : ( <div className="home">
-            <img src="/assets/paint.png" alt="" />
-            <p className="sunghoon">김성훈</p>
-            <h1>Hair Stylist</h1>
-          </div> )}
-    </>
+    <div className="App container-fluid p-0 vh-100">
+      <Nav />
+
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" index element={<Home />} />
+        <Route path="/booking" index element={<Booking />} />
+        <Route path="/dates" index element={<Dates />} />
+        <Route path="/about" index element={<About />} />
+      </Routes>
+    </div>
   );
 }

@@ -1,124 +1,81 @@
 @font-face {
-  font-family: Glamour Karlina;
-  src: url('../../../public/fonts/karlina.ttf');
-}
-
-@font-face {
   font-family: Do Hyeon;
-  src: url('../../../public/fonts/dohyeon.ttf');
+  src: url("../../../public/fonts/dohyeon.ttf");
 }
 
 @font-face {
   font-family: Canopee;
-  src: url('../../../public/fonts/Canopee.otf');
+  src: url("../../../public/fonts/Canopee.otf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
-html {
-  background-image: url('../../../public/assets/bg.png');
+.App {
+  background-image: url("../../../public/assets/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: deeppink;
   min-height: 100%;
   overflow: hidden;
-  font-family: 'Canopee', serif;
-}
-
-body {
-  animation: fadeIn;
-  animation-duration: 2s;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }
 
-.home, .home h1, .sunghoon{
-  position: absolute;
-  right: 50%;
-  top: 45%;
-  right: 8%;
-  animation: fadeInRight;
-  animation-duration: 2s;
+.bg-transparent-purple {
+  background-color: rgba(82, 9, 146, 0.35);
 }
 
-
-.home img {
-  width: 75vmin;
-  z-index: 1;
+.bg-paint {
+  background: center no-repeat url("../../../public/assets/paint.png");
+  background-size: contain;
 }
 
-.home h1 {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 500;
-  z-index: 2;
-  font-size: 2.5vmin;
-  margin: 0 -4vmin 0 0;
-  text-align: center;
-}
-  
-.sunghoon {
-  font-family: 'Do Hyeon';
+.text-neon {
   color: greenyellow;
-  font-size: 8.5vmin;
-  text-align: center;
-  margin: -8vmin 21.5vmin 0 0;
+}
+
+.text-navy {
+  color: navy;
+}
+
+.canopee {
+  font-family: "Canopee", serif;
+}
+
+.roboto {
+  font-family: "Roboto Mono";
+}
+
+i {
+  background: linear-gradient(greenyellow, navy);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+iframe {
+  border-radius: 10px;
+  filter: invert(1) saturate(0) drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }
 
 @media only screen and (max-width: 1500px) {
-
-  html {
+  .App {
     background-position: 6%;
   }
-
-  .home {
-    top: 40%;
-    right: 12%;
-  }
-
-  .home h1 {
-    font-size: 3vmin;
-    margin-top: 0.5vmin;
-  }
-
-  .sunghoon {
-    font-size: 10vmin;
-    margin: -8.5vmin 20vmin 0 0;
-  }
-
 }
 
-
-@media only screen and (max-width: 500px) {
-
-  html {
-    background-position: 15%;
+@media only screen and (max-width: 567px) {
+  .App {
+    background-position: 17%;
   }
-  
-  .home {
-    top: 40%;
-    right: 8%;
-  }
-
-  .home img {
-    width: 85vmin;
-  }
-
-  .home h1 {
-    font-size: 3.25vmin;
-  }
-
-  .sunghoon {
-    width: 100%;
-    margin: -9vmin -6vmin 0 0;
-    font-size: 11vmin;
-  }
-  
 }

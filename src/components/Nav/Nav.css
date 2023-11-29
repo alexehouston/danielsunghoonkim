@@ -1,181 +1,60 @@
 .Nav {
-    background-color: navy;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    animation: fadeInDown 2s;
+  background-color: navy;
+  animation: fadeInDown 2s;
 }
 
-h1 {
-    position: fixed;
-    left: 0;
-    text-transform: uppercase;
-    font-size: 6vmin;
-    color: greenyellow;
-    padding: 1vmin 0 0 2vmin;
-    
+.Nav h1 {
+  font-size: 4rem;
 }
 
-ul {
-    display: flex;
-    column-gap: 10vmin;
-    background-color: whitesmoke;
-    background-image: url('/public/assets/nav-bg.jpg');
-    background-size: cover;
-    height: 10vh;
-    width: 110vmin;
-    align-items: center;
-    justify-content: right;
-    position: fixed;
-    right: 0;
-    padding: 5vmin;
+.nav-right {
+  background-image: url("/public/assets/nav-bg.jpg");
+  background-size: cover;
 }
 
-li {
-    color: navy;
-    list-style-type: none;
-    text-transform: uppercase;
-    font-size: 3vmin;
-}
-
-.Nav a {
-    color: navy;
-}
-
-i {
-    font-size: 3.5vmin;
-}
-
-.fa-instagram, .fa-envelope {
-    background: linear-gradient(navy, greenyellow);
-    padding: .5rem;
-    border-radius: 10px;
-    color: #fff;
-    box-shadow: 1px 1px 10px #22222275;
-}
-
-.title-hover, .hover {
-    display: inline-block;
-}
-
-.title-hover {
-    color: greenyellow;
+.title-hover,
+.hover {
+  display: inline-block;
 }
 
 .hover {
-    position: relative;
+  position: relative;
 }
-  
-.title-hover::after, .hover::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: navy;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+
+.title-hover::after,
+.hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: navy;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 .title-hover::after {
-    background-color: greenyellow;
-}
-  
-.title-hover:hover::after, .hover:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  background-color: greenyellow;
 }
 
-.mobile-social {
-    position: fixed;
-    bottom: 4%;
-    right: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: fadeInUp 2s;
+.title-hover:hover::after,
+.hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
-.mobile-social-icon {
-    margin: 0 2rem;
-    font-size: 2rem;
-}
+@media only screen and (max-width: 567px) {
+  .Nav h1 {
+    font-size: 2.5rem;
+  }
 
-@media only screen and (max-width: 1500px) {
-    
-    .Nav {
-        animation: none;
-    }
+  .Nav .col-lg-7 {
+    text-align: center;
+  }
 
-    .Nav h1 {
-        font-size: 7.5vmin;
-        text-align: center;
-        width: 100vw;
-        padding: 0;
-        margin-top: 5vmin;
-        animation: fadeInDown 1s;
-    }
-  
-    .Nav ul {
-        width: 100vw;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 830%;
-        animation: fadeInUp 2s;
-        column-gap: 4vmin;
-    }
-
-    .Nav li {
-        font-size: 3.5vmin;
-    }
-
-    i {
-        font-size: 4vmin;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
-
-    .Nav {
-        animation: fadeInDown 2s;
-    }
-    
-    .Nav h1 {
-        width: 100%;
-        text-align: center;
-        font-size: 9vmin;
-        padding: 0;
-    }
-
-    .Nav {
-        height: 9vh;
-    }
-    
-    .Nav ul {
-        position: absolute;
-        width: 100vw;
-        top: 70%;
-        justify-content: center;
-        height: 4vh;
-        column-gap: 6vmin;
-    }
-
-    .Nav li {
-        font-size: 5vmin;
-    }
-
-    i {
-        padding-bottom: 1vmin;
-    }
-
+  .Nav .col-lg-7 p {
+    font-size: 2.75rem !important;
+  }
 }

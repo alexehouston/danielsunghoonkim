@@ -1,0 +1,23 @@
+.Home h1 {
+  font-family: "Do Hyeon";
+  color: greenyellow;
+  font-size: 6rem;
+}
+
+.Home p {
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 567px) {
+  .Home .bg-paint {
+    width: 100% !important;
+  }
+
+  .Home .bg-paint p {
+    font-size: 1.1rem !important;
+  }
+
+  .Home h1 {
+    font-size: 3rem;
+  }
+}
