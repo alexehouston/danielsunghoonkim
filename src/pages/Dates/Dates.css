@@ -1,6 +1,11 @@
-@media only screen and (max-width: 567px) {
-    .dates {
-      text-align: center;
-      font-size: .8rem;
-    }
+@media only screen and (max-width: 1200px) {
+  .dates {
+    text-align: center;
   }
+}
+
+@media only screen and (max-width: 567px) {
+  .dates {
+    font-size: 0.8rem;
+  }
+}

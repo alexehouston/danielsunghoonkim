@@ -45,13 +45,15 @@
   transform-origin: bottom left;
 }
 
+@media only screen and (max-width: 1200px) {
+  .Nav .col-lg-7 {
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 567px) {
   .Nav h1 {
     font-size: 2.5rem;
-  }
-
-  .Nav .col-lg-7 {
-    text-align: center;
   }
 
   .Nav .col-lg-7 p {

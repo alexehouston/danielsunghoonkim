@@ -8,6 +8,12 @@
   letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .Home .bg-paint {
+    width: 90% !important;
+  }
+}
+
 @media only screen and (max-width: 567px) {
   .Home .bg-paint {
     width: 100% !important;

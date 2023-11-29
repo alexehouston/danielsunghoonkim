@@ -6,7 +6,7 @@ export default function Booking() {
       <div className="bg-transparent-purple container-fluid py-5 mt-5">
         <div className="container">
           <div className="row d-flex justify-content-end">
-            <div className="col-12 col-lg-3 text-center me-lg-5">
+            <div className="col-12 col-md-6 col-lg-3 text-center me-lg-5">
               <h3 className="canopee bg-paint text-neon fs-1 p-2">Texas</h3>
               <button className="booking-button roboto mt-3 mt-lg-5 mb-5 mb-lg-0 py-1 px-3 fs-6 fw-bold text-uppercase border border-3 border-black">
                 <a
@@ -19,7 +19,7 @@ export default function Booking() {
                 </a>
               </button>
             </div>
-            <div className="col-12 col-lg-3 text-center">
+            <div className="col-12 col-md-6 col-lg-3 text-center">
               <h3 className="canopee bg-paint text-neon fs-1 p-2">
                 California
               </h3>
