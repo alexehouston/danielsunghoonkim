@@ -7,7 +7,7 @@ export default function Nav() {
       <div className="col-12 col-md-12 col-lg-7 my-auto ps-lg-4 py-3 py-lg-0">
         <Link to="/">
           <h1 className="title-hover text-neon header-font mb-0 position-relative lh-1 text-uppercase">
-            Daniel Sung Hoon Kim*
+            Daniel Sung Hoon Kim
           </h1>
         </Link>
       </div>

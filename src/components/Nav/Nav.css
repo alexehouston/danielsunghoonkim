@@ -4,11 +4,6 @@
 
 .Nav h1 {
   font-size: 2.75rem;
-  text-shadow: 0 0 5px deeppink, 0 0 15px deeppink, 0 0 20px deeppink;
-}
-
-.Nav a {
-  text-shadow: 0 0 5px greenyellow, 0 0 15px greenyellow;
 }
 
 .nav-right {
