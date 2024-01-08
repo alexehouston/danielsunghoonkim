@@ -70,7 +70,7 @@ export default function Dates() {
                 </ul>
               </div>
               <div>
-                <p className="salon text-neon header-font text-lowercase mb-0">Dafne Evangelista Beauty Lounge</p>
+                <p className="salon text-neon header-font text-lowercase mb-0">Dafne Beauty Lounge</p>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14367.285334821097!2d-80.194132!3d25.8094678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b153e6bcfecf%3A0x1775dd7074a80144!2sDafne%20Salon!5e0!3m2!1sen!2sus!4v1704745334661!5m2!1sen!2sus"
                   className="h-25 m-0 mt-2"
