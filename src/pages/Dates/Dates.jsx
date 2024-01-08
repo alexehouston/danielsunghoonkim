@@ -70,11 +70,11 @@ export default function Dates() {
                 </ul>
               </div>
               <div>
-                <p className="salon text-neon header-font text-lowercase mb-0">Kevin Charles Salon</p>
+                <p className="salon text-neon header-font text-lowercase mb-0">Dafne Evangelista Beauty Lounge</p>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13407.801240363377!2d-96.7873256!3d32.8465673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9f5be293b89d%3A0x3206fbe57886a431!2sKevin%20Charles%20Salon!5e0!3m2!1sen!2sus!4v1688680402062!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14367.285334821097!2d-80.194132!3d25.8094678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b153e6bcfecf%3A0x1775dd7074a80144!2sDafne%20Salon!5e0!3m2!1sen!2sus!4v1704745334661!5m2!1sen!2sus"
                   className="h-25 m-0 mt-2"
-                  title="Kevin Charles Salon"
+                  title="Dafne Evangelista Salon"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
