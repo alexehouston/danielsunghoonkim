@@ -1,9 +1,17 @@
+.Dates {
+  height: 100vh;
+}
+
+.Dates iframe {
+  width: 100%;
+}
+
 .salon {
   font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1200px) {
-  .dates {
+  .travel-dates {
     text-align: center;
   }
 
@@ -13,7 +21,19 @@
 }
 
 @media only screen and (max-width: 567px) {
-  .dates {
+  .Dates {
+    overflow: scroll !important;
+  }
+
+  .Dates .row {
+    margin-top: 40rem !important;
+  }
+
+  .Dates iframe {
+    width: 75%;
+  }
+
+  .travel-dates {
     font-size: 0.8rem;
   }
 
