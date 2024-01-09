@@ -7,7 +7,7 @@ export default function Booking() {
         <div className="container">
           <div className="row d-flex justify-content-end">
             <div className="col-12 col-md-6 col-lg-3 text-center me-lg-5">
-              <h3 className="header-font bg-paint text-neon fs-1 p-3 text-uppercase">Texas</h3>
+              <h3 className="header-font bg-paint text-neon fs-1 p-3 text-uppercase">TX / Miami</h3>
               <button className="booking-button mt-3 mt-lg-5 mb-5 mb-lg-0 py-1 px-3 fs-5 fw-bold border border-3 border-black">
                 <a
                   className="text-black header-font text-lowercase"

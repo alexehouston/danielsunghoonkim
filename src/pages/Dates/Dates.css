@@ -3,7 +3,37 @@
 }
 
 .Dates iframe {
-  width: 100%;
+  width: 75%;
+}
+
+.accordion-header span {
+  width: 12rem;
+}
+
+.accordion {
+  --bs-accordion-bg: rgba(82, 9, 146, 0.35) !important;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button, button:focus:not(:focus-visible) {
+  border-bottom: 1px solid rgba(82, 9, 146, 0.5) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(82, 9, 146, 0.35) !important;
+  box-shadow: none !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
+.accordion-button:focus {
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .salon {
@@ -11,27 +41,18 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .travel-dates {
-    text-align: center;
-  }
-
   .Booking .col-6 {
     margin: auto;
+  }
+
+  .Dates iframe {
+    width: 50%;
   }
 }
 
 @media only screen and (max-width: 567px) {
-  .Dates {
-    overflow: scroll !important;
-  }
-
-  .Dates .row {
-    margin-top: 60rem !important;
-    margin-bottom: 10rem;
-  }
-
   .Dates iframe {
-    width: 75%;
+    width: 80%;
   }
 
   .travel-dates {
@@ -40,5 +61,14 @@
 
   .salon {
     font-size: 1.1rem;
+  }
+
+  .accordion-header span {
+    width: 10rem;
+    font-size: 2rem !important;
+  }
+
+  .accordion {
+    --bs-accordion-bg: rgba(82, 9, 146, 0.5) !important;
   }
 }
