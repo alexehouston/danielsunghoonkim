@@ -143,7 +143,7 @@ export default function Dates() {
                           Dafne Salon
                         </p>
                         <iframe
-                          src="https://www.google.com/maps/place/Dafne+Salon/@25.8094678,-80.194132,15z/data=!4m2!3m1!1s0x0:0x1775dd7074a80144?sa=X&ved=2ahUKEwiTooyS-MSEAxXzHNAFHaTGDGYQ_BJ6BAgREAA"
+                          src="https://www.google.com/maps/place/Dafne+Salon/@25.8094678,-80.194132,15z/data=!4m6!3m5!1s0x88d9b153e6bcfecf:0x1775dd7074a80144!8m2!3d25.8094678!4d-80.194132!16s%2Fg%2F11fy_qmytg?entry=ttu"
                           className="h-25 m-0 mt-2"
                           title="Dafne Evangelista Salon"
                           allowFullScreen=""
