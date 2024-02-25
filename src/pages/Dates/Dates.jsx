@@ -49,7 +49,7 @@ export default function Dates() {
                           Reve Studio
                         </p>
                         <iframe
-                          src="https://maps.app.goo.gl/UhsLnNSQtVHHiMot6"
+                          src="https://www.google.com/maps/place/Reve+Hair+Studio/@30.2449988,-97.7808676,15z/data=!4m6!3m5!1s0x8644b563f639ac6f:0x32be7c095c7ce35b!8m2!3d30.2449988!4d-97.7808676!16s%2Fg%2F11khtmlvtc?entry=ttu"
                           className="h-25 m-0 mt-2"
                           title="Reve Studio"
                           allowFullScreen=""
@@ -96,7 +96,7 @@ export default function Dates() {
                           REVIVE Beauty
                         </p>
                         <iframe
-                          src="https://maps.app.goo.gl/wffqsEQK6sEHG8Bo7"
+                          src="https://www.google.com/maps/place/REVIVE+Beauty+%26+Wellness/@32.7439507,-96.8374842,15z/data=!4m6!3m5!1s0x864e9a27ae4968b7:0x67a952eb07b97a8c!8m2!3d32.7439507!4d-96.8374842!16s%2Fg%2F11cjk1rpt8?entry=ttu"
                           className="h-25 m-0 mt-2"
                           title="REVIVE Beauty & Wellness"
                           allowFullScreen=""
@@ -143,7 +143,7 @@ export default function Dates() {
                           777 Miami
                         </p>
                         <iframe
-                          src="https://maps.app.goo.gl/s7kTZmzExoaJfaxi8"
+                          src="https://www.google.com/maps/place/777+Miami/@25.8498612,-80.1841064,15z/data=!4m6!3m5!1s0x88d9b709dac6c347:0x7219ee863e8ba791!8m2!3d25.8498612!4d-80.1841064!16s%2Fg%2F11h5vb45l_?entry=ttu"
                           className="h-25 m-0 mt-2"
                           title="Dafne Evangelista Salon"
                           allowFullScreen=""
