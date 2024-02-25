@@ -140,7 +140,7 @@ export default function Dates() {
                       </div>
                       <div>
                         <p className="salon text-neon header-font text-lowercase mb-0">
-                          777 Miami
+                          <span class="body-font">777</span> Miami
                         </p>
                         <iframe
                           src="https://www.google.com/maps/place/777+Miami/@25.8498612,-80.1841064,15z/data=!4m6!3m5!1s0x88d9b709dac6c347:0x7219ee863e8ba791!8m2!3d25.8498612!4d-80.1841064!16s%2Fg%2F11h5vb45l_?entry=ttu"
