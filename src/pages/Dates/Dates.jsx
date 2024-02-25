@@ -49,7 +49,7 @@ export default function Dates() {
                           Reve Studio
                         </p>
                         <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13786.888624291569!2d-97.7808676!3d30.2449988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b563f639ac6f%3A0x32be7c095c7ce35b!2sR%C3%AAve%20Luxury%20Color%20%2B%20Extension%20Studio!5e0!3m2!1sen!2sus!4v1688680218690!5m2!1sen!2sus"
+                          src="https://maps.app.goo.gl/UhsLnNSQtVHHiMot6"
                           className="h-25 m-0 mt-2"
                           title="Reve Studio"
                           allowFullScreen=""
@@ -93,12 +93,12 @@ export default function Dates() {
                       </div>
                       <div>
                         <p className="salon text-neon header-font text-lowercase mb-0">
-                          Kevin Charles Salon
+                          REVIVE Beauty
                         </p>
                         <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13407.801240363377!2d-96.7873256!3d32.8465673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9f5be293b89d%3A0x3206fbe57886a431!2sKevin%20Charles%20Salon!5e0!3m2!1sen!2sus!4v1688680402062!5m2!1sen!2sus"
+                          src="https://maps.app.goo.gl/wffqsEQK6sEHG8Bo7"
                           className="h-25 m-0 mt-2"
-                          title="Kevin Charles Salon"
+                          title="REVIVE Beauty & Wellness"
                           allowFullScreen=""
                           loading="lazy"
                           referrerPolicy="no-referrer-when-downgrade"
@@ -140,10 +140,10 @@ export default function Dates() {
                       </div>
                       <div>
                         <p className="salon text-neon header-font text-lowercase mb-0">
-                          Dafne Salon
+                          777 Miami
                         </p>
                         <iframe
-                          src="https://www.google.com/maps/place/Dafne+Salon/@25.8094678,-80.194132,15z/data=!4m6!3m5!1s0x88d9b153e6bcfecf:0x1775dd7074a80144!8m2!3d25.8094678!4d-80.194132!16s%2Fg%2F11fy_qmytg?entry=ttu"
+                          src="https://maps.app.goo.gl/s7kTZmzExoaJfaxi8"
                           className="h-25 m-0 mt-2"
                           title="Dafne Evangelista Salon"
                           allowFullScreen=""
