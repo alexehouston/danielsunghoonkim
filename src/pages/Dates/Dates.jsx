@@ -49,7 +49,7 @@ export default function Dates() {
                           Reve Studio
                         </p>
                         <iframe
-                          src="https://www.google.com/maps/place/Reve+Hair+Studio/@30.2449988,-97.7808676,15z/data=!4m6!3m5!1s0x8644b563f639ac6f:0x32be7c095c7ce35b!8m2!3d30.2449988!4d-97.7808676!16s%2Fg%2F11khtmlvtc?entry=ttu"
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13786.888624291569!2d-97.7808676!3d30.2449988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b563f639ac6f%3A0x32be7c095c7ce35b!2sReve%20Hair%20Studio!5e0!3m2!1sen!2sus!4v1708822657702!5m2!1sen!2sus"
                           className="h-25 m-0 mt-2"
                           title="Reve Studio"
                           allowFullScreen=""
@@ -96,7 +96,7 @@ export default function Dates() {
                           REVIVE Beauty
                         </p>
                         <iframe
-                          src="https://www.google.com/maps/place/REVIVE+Beauty+%26+Wellness/@32.7439507,-96.8374842,15z/data=!4m6!3m5!1s0x864e9a27ae4968b7:0x67a952eb07b97a8c!8m2!3d32.7439507!4d-96.8374842!16s%2Fg%2F11cjk1rpt8?entry=ttu"
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13423.282906334196!2d-96.8374842!3d32.7439507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9a27ae4968b7%3A0x67a952eb07b97a8c!2sREVIVE%20Beauty%20%26%20Wellness!5e0!3m2!1sen!2sus!4v1708822616752!5m2!1sen!2sus"
                           className="h-25 m-0 mt-2"
                           title="REVIVE Beauty & Wellness"
                           allowFullScreen=""
@@ -143,7 +143,7 @@ export default function Dates() {
                           <span class="body-font">777</span> Miami
                         </p>
                         <iframe
-                          src="https://www.google.com/maps/place/777+Miami/@25.8498612,-80.1841064,15z/data=!4m6!3m5!1s0x88d9b709dac6c347:0x7219ee863e8ba791!8m2!3d25.8498612!4d-80.1841064!16s%2Fg%2F11h5vb45l_?entry=ttu"
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14362.383195789487!2d-80.1841064!3d25.8498612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b709dac6c347%3A0x7219ee863e8ba791!2s777%20Miami!5e0!3m2!1sen!2sus!4v1708822562656!5m2!1sen!2sus"
                           className="h-25 m-0 mt-2"
                           title="Dafne Evangelista Salon"
                           allowFullScreen=""
